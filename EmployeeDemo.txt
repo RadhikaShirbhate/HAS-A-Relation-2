@@ -1,0 +1,19 @@
+import java.util.*;
+public class EmployeeDemo
+ {
+
+	public static void main(String[] args)
+ {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the empId=");
+		int id = sc.nextInt();
+		System.out.print("Enter the empName=");
+		String Name=sc.next();
+		
+		
+	Address ad= new Address("Hyd","HYd","Telangana");
+	Employee e1= new Employee(id,Name, ad);
+	System.out.println(e1);
+	
+}
+}
